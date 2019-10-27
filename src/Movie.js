@@ -17,7 +17,7 @@ function Movie({ title, poster }) {
 
 function MoviePoster({ URL }) {
   return (
-    <img alt='alt' src={URL} width='300' />
+    <img alt='alt' src={URL} />
   )
 }
 
